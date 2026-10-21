@@ -23,8 +23,8 @@
 
 ---
 
-> **🚧 Early access.** We're opening the SQID runtime and building the agent tools in public.
-> ⭐ **Star the repo** to follow along. Tell us what your agent would do with visitor context in [Discussions](https://github.com/sqid-dev/sqid/discussions).
+> **Early access.** We're opening the SQID runtime and building the agent tools in public.
+> **Star the repo** to follow along. Tell us what your agent would do with visitor context in [Discussions](https://github.com/sqid-dev/sqid/discussions).
 
 ## Your agent knows the conversation. It doesn't know the visitor.
 
@@ -115,12 +115,12 @@ Also planned: **OpenAI Agents SDK**, **LangChain**, **Mastra** and **Claude Agen
 
 | | |
 |---|---|
-| 💬 **Website chat that skips the intro** | The agent opens with what the visitor came for, not "How can I help?" |
-| 📞 **AI SDRs with a reason to reach out** | Follow up on *what they read*, not "saw you visited our site". |
-| 🎯 **Agents that personalize the page** | Let your agent rewrite the hero, pricing or CTA for this visit. |
-| 🧭 **Onboarding copilots** | Know where a new user got stuck before they ask. |
-| 🚪 **Hesitation saves** | Step in when intent drops, and stay quiet when they're just reading. |
-| 🕵️ **Know when the visitor *is* an agent** *(experimental)* | Spot AI browsers and agents on your site, and see what they read. |
+| **Website chat that skips the intro** | The agent opens with what the visitor came for, not "How can I help?" |
+| **AI SDRs with a reason to reach out** | Follow up on *what they read*, not "saw you visited our site". |
+| **Agents that personalize the page** | Let your agent rewrite the hero, pricing or CTA for this visit. |
+| **Onboarding copilots** | Know where a new user got stuck before they ask. |
+| **Hesitation saves** | Step in when intent drops, and stay quiet when they're just reading. |
+| **Know when the visitor *is* an agent** *(experimental)* | Spot AI browsers and agents on your site, and see what they read. |
 
 ## Open source vs. SQID Cloud
 
@@ -129,15 +129,15 @@ Everything your agent needs to see behavior and intent is open source and self-h
 
 | | **Open source** | **SQID Cloud** |
 |---|:---:|:---:|
-| Browser SDK and real-time engine | ✅ | ✅ |
-| Intent scoring, key events, journeys | ✅ | ✅ |
-| `visitor_context` API + MCP server + framework tools | ✅ | ✅ |
-| Webhooks, Kafka, Pulsar and other sinks | ✅ | ✅ |
-| Self-host with Docker | ✅ | n/a |
-| **Identity on demand**: person + company, 200+ fields | | ✅ |
-| **Enrichment** by email, phone or LinkedIn | | ✅ |
-| Hosted, scaled, monitored | | ✅ |
-| **OEM** for agent platforms: per-customer SDKs, white-label | | ✅ |
+| Browser SDK and real-time engine | Yes | Yes |
+| Intent scoring, key events, journeys | Yes | Yes |
+| `visitor_context` API + MCP server + framework tools | Yes | Yes |
+| Webhooks, Kafka, Pulsar and other sinks | Yes | Yes |
+| Self-host with Docker | Yes | n/a |
+| **Identity on demand**: person + company, 200+ fields | | Yes |
+| **Enrichment** by email, phone or LinkedIn | | Yes |
+| Hosted, scaled, monitored | | Yes |
+| **OEM** for agent platforms: per-customer SDKs, white-label | | Yes |
 
 ### Building an agent product?
 

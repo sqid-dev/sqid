@@ -1,4 +1,4 @@
-name: 🐛 Bug report
+name: Bug report
 description: Something in SQID doesn't work as documented.
 labels: [bug]
 body:

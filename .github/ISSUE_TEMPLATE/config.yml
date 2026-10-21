@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 💡 Share a use case or idea
+  - name: Share a use case or idea
     url: https://github.com/sqid-dev/sqid/discussions/categories/ideas
     about: Tell us what your agent or app would do with live visitor context.
-  - name: ❓ Ask a question
+  - name: Ask a question
     url: https://github.com/sqid-dev/sqid/discussions/categories/q-a
     about: Questions about SQID, the roadmap or SQID Cloud.
-  - name: 🔒 Report a security issue
+  - name: Report a security issue
     url: https://github.com/sqid-dev/sqid/security/advisories/new
     about: Report vulnerabilities privately, never in a public issue.
