@@ -1,0 +1,29 @@
+name: ✨ Feature request
+description: Suggest something SQID should do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The problem or use case, in your words. What would your agent or app do?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: The feature, API or integration you have in mind.
+  - type: dropdown
+    id: framework
+    attributes:
+      label: Agent framework (if any)
+      options:
+        - Not applicable
+        - Vercel AI SDK
+        - OpenAI Agents SDK
+        - LangChain
+        - Mastra
+        - Claude Agent SDK
+        - MCP client (Claude, ChatGPT, Cursor…)
+        - Other

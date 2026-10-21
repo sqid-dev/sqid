@@ -1,0 +1,21 @@
+name: 🐛 Bug report
+description: Something in SQID doesn't work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Minimal steps or code. Please remove any API keys or real visitor data.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package and version, e.g. @sqid-dev/sdk 0.1.0
